@@ -1,6 +1,6 @@
 ﻿namespace winform
 {
-    partial class Form1
+    partial class LearnADO
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -28,9 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // LearnADO
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(792, 384);
+            this.Name = "LearnADO";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
