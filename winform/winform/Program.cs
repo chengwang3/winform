@@ -16,7 +16,7 @@ namespace winform
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ListBox());
+            Application.Run(new StudentLogin());
         }
     }
 }
