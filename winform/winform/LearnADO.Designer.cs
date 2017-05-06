@@ -32,9 +32,10 @@
             // 
             // LearnADO
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(792, 384);
+            this.ClientSize = new System.Drawing.Size(1188, 576);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "LearnADO";
             this.ResumeLayout(false);
 
