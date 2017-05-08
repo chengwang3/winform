@@ -46,6 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="factoryDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>factoryDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="factoryDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>factoryDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="LearnADO.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +76,28 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="factoryDataSet.xsc">
+      <DependentUpon>factoryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="factoryDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>factoryDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="factoryDataSet.xss">
+      <DependentUpon>factoryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="factoryDataSet1.xsc">
+      <DependentUpon>factoryDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="factoryDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>factoryDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="factoryDataSet1.xss">
+      <DependentUpon>factoryDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
