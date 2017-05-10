@@ -46,15 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="factoryDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>factoryDataSet.xsd</DependentUpon>
+    <Compile Include="CheckBox.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="factoryDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>factoryDataSet1.xsd</DependentUpon>
+    <Compile Include="CheckBox.Designer.cs">
+      <DependentUpon>CheckBox.cs</DependentUpon>
     </Compile>
     <Compile Include="LearnADO.cs">
       <SubType>Form</SubType>
@@ -62,10 +58,37 @@
     <Compile Include="LearnADO.Designer.cs">
       <DependentUpon>LearnADO.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListBox.Designer.cs">
+      <DependentUpon>ListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyTXT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyTXT.Designer.cs">
+      <DependentUpon>MyTXT.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Radio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Radio.Designer.cs">
+      <DependentUpon>Radio.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CheckBox.resx">
+      <DependentUpon>CheckBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LearnADO.resx">
       <DependentUpon>LearnADO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListBox.resx">
+      <DependentUpon>ListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyTXT.resx">
+      <DependentUpon>MyTXT.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -76,28 +99,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="factoryDataSet.xsc">
-      <DependentUpon>factoryDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="factoryDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>factoryDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="factoryDataSet.xss">
-      <DependentUpon>factoryDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="factoryDataSet1.xsc">
-      <DependentUpon>factoryDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="factoryDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>factoryDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="factoryDataSet1.xss">
-      <DependentUpon>factoryDataSet1.xsd</DependentUpon>
-    </None>
+    <EmbeddedResource Include="Radio.resx">
+      <DependentUpon>Radio.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
